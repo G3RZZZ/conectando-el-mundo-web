@@ -1,0 +1,10 @@
+^C:\USERS\GERAR\ONEDRIVE\DOCUMENTS\AS_5\ST1\FLUTTER_APPLICATION_1\BUILD\WINDOWS\CMAKEFILES\44CFBF5839F9AA5E1E5D12B8C3B4FECE\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
