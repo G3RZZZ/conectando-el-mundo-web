@@ -46,6 +46,8 @@ app.*.map.json
 
 node_modules
 
+build
+
 lib/firebase_options.dart
 
 A01029422_ST1\flutter_application_1\node_modules\firebase-tools\node_modules\puppeteer\.local-chromium\win64-869685\chrome-win\chrome.dll
